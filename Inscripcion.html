@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción</title>
+    <link rel="stylesheet" href="./incripcion.css">
+</head>
+<body>
+
+    <h2>Quieres formar parte de nuestra familia y comenzar a aprender uno de los idiomas más hablado del mundo actual?</h2>
+
+<div class="mb-3">
+    <form action="Enviar.php" method="get">
+        <fieldset>
+            <legend>Datos personales.</legend>
+            <label for="Nombre">Nombre</label>
+    <input type="text" name="" id="nombre"placeholder="Ingrese su nombre"required>
+    <br><br>
+    <label for="mail">Email</label>
+    <input type="email" id="mail"required>
+    <br><br>
+    <label for="date of birth">Fecha de nacimiento.</label>
+    <input type="date" id="edad"required>
+    <br><br> <!--margin botton cambiar-->
+
+        </fieldset>
+   
+    <br><br><!--margin botton cambiar-->
+
+    <label for="pass">Contraseña</label>
+    <input type="password" name="pass"id="pass">
+    <br><br>
+    <label for="multi">Contanos tus dudas. </label>
+    <textarea name="multi" id="multi" cols="30" rows="15"></textarea>
+    <br><br><!--margin botton cambiar-->
+
+    <label for="adjunto">Adjuntar:</label>
+    <input type="file" id="adjunto">
+    <br><br><!--margin botton cambiar-->
+
+    <label for="">Te gustaría recibir más información sobre el curso?</label>
+    <input type="radio"value="curso"id="no"Si>
+    <input type="radio"value="curso"id="no"NO>
+    <br><br><!--margin botton cambiar-->
+
+    <p>Desde dónde nos contactas?</p>
+    <label for="">Elige tu contiente.</label>
+    <select name="continentes" id="continentes">
+    <option value="North">Norte America</option>
+    <option value="eur">Europa</option>
+    <option value="asia">Asia</option>
+    <option value="africa">Africa</option>
+    <option value="oce">Oceania</option>
+    </select>
+    <br><br><!--margin botton cambiar-->
+
+    <input type="submit" value="Enviar ahora">    
+    <input type="reset" value="Borrar todo">
+    <br><br><!--margin botton cambiar-->
+
+    <label for="acepta">Acepta?</label>
+    <input type="checkbox"name="acepta"id="termycond">Terminos y condiciones.
+    <input type="checkbox"name="acepta"id="news">Recibir news.
+</form>
+
+</body>
+<footer><!--falta disenar-->
+
+
+</footer>
+</html>
